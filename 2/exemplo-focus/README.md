@@ -1,12 +1,12 @@
-1 - Pegar todos os inputs
+1 - Pegar todos os inputs ok
 
-2 -  Verificar se os inputs estão vazios, ou undefineds
+2 -  Verificar se os inputs estão vazios, ou undefineds ok
 
-3 - Verificar se os emails são os mesmos
+3 - Verificar se os emails são os mesmos ok
 
-4 - Verificar se a senha é a mesma
+4 - Verificar se a senha é a mesma ok
 
-5 - Senha tem que ter mais que 7 digitos
+5 - Senha tem que ter mais que 7 digitos ok
 
 6 - O fundo muda de cor de acordo com a área
     front end azul
