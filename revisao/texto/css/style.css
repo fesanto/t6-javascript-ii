@@ -34,3 +34,25 @@ body {
     padding: 10px;
     margin: 0;
 }
+
+#arrowTop {    
+    color: #462755;
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#arrowTop::before {
+  content: '▲';
+}
+
+#arrowTop:hover {
+    color: #7F479B;
+    transition: 0.3s;
+}
