@@ -1,5 +1,5 @@
-const buttonIncrease = document.querySelector(".button__increase");
-const buttonDecrease = document.querySelector (".button__decrease");
+const aumentar = document.getElementById("aumentar");
+const diminuir = document.getElementById("diminuir");
 const arrowTop = document.getElementById("arrowTop");
 
 //clica o botão e rola toda a pagina para o topo, posição 0
@@ -19,7 +19,7 @@ window.addEventListener("scroll", function(){
 });
 
 
-buttonIncrease.addEventListener("click", function(){
+aumentar.addEventListener("click", function(){
     let tamanhoFonte = document.querySelector(".article").style.fontSize;
     tamanhoFonte = tamanhoFonte.replace("px", "");
 
@@ -30,7 +30,7 @@ buttonIncrease.addEventListener("click", function(){
     }
 });
 
-buttonDecrease.addEventListener("click", function(){
+diminuir.addEventListener("click", function(){
     let tamanhoFonte = document.querySelector(".article").style.fontSize;
     tamanhoFonte = tamanhoFonte.replace("px", "");
 
