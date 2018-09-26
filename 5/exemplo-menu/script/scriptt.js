@@ -17,4 +17,4 @@ menuButton.addEventListener("click", function(event){
     }
 })
 
-//.classList: retona classe de listas passadas para o elemento de html
+//.classList: retorna classe de listas passadas para o elemento de html
